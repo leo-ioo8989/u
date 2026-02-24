@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<body class="reel dark">
+
+<h1>Are you ready for your gift? 🎁</h1>
+
+<div class="choices">
+<button onclick="startCountdown()">Yes 😍</button>
+<button onclick="goTo('final.html')">No 🙈</button>
+</div>
+
+<h1 id="countdown" class="hidden countdown"></h1>
+<video id="giftVideo" class="hidden" src="assets/gift-video.mp4"></video>
+
+<button id="continueBtn" class="hidden" onclick="goTo('final.html')">Continue ❤️</button>
+
+<audio id="bgm" src="assets/bgm.mp3" loop></audio>
+<script src="js/main.js"></script>
+</body>
+</body>
+</html>

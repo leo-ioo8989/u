@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="reel">
+
+<div class="scene">
+<div id="sprite" class="sprite sprite-before"></div>
+</div>
+
+<div id="dialogue" class="hidden"></div>
+
+<div id="choices" class="choices hidden">
+<button onclick="goTo('gift.html')">Yes 💝</button>
+<button onclick="reject()">No 😢</button>
+</div>
+
+<video id="sadVideo" class="hidden" src="assets/sad-video.mp4"></video>
+
+<audio id="bgm" src="assets/bgm.mp3" loop></audio>
+<script src="js/main.js"></script>
+</body>
+</html>
